@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Open+Sans:wght@500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0d1116;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar h4{
+    font-size: xx-large;
+    margin-left: 10%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .search #input_seach {
+    margin-top: 20%;
+    height: 40%;
+    width: 300%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1d2833;
+    border: none;
+    color: #ffffff;
+    font-weight: 900;;
+}
+.navbar #my_profile {
+    width: 8%;
+    height: 55px;
+    margin-left: 10vh;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #6a11cbc9 0%, #2575fcbf 100%);
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar #my_profilepic{
+    width: 3%;
+    margin-left: -10%;
+    height: 3%;
+    border-radius: 50px;
+    margin-top: 2%;
+}
+
+.navbar #icon_settings {
+    width: 2%;
+    margin-left: -12%;
+    height: 2%;
+    border-radius: 50px;
+    margin-top: 2.5%;
+}
+
+.myprofile_detalis{
+    padding-top: 5%;
+    width: 38vh;
+    background-color: #1d2833;
+    height: 10%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.myprofile_detalis img{
+width: 5%;
+border-radius: 140px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.myprofile_detalis #detalis_name{
+color: #f5f5f591;
+}
+.myprofile_detalis #decription_users{
+    font-size: large;
+}
+
+.categories{
+    list-style: none;
+    display: flex;
+    margin-left: 10%;
+    width: 50%;
+}
+.categories li{
+    margin-right: 3vh;
+    background-image: linear-gradient(to right, #6a11cbc9 0%, #2575fcbf 100%);
+    padding: 1vh;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-left: -2vh;
+}
+
+.follower_side{
+    width: 50%;
+    border-right: solid;
+    border-right-width: initial;
+    border-right-style: solid;
+    border-right-color: initial;
+    margin-top: 10%;
+}
+
+
+.douknow{
+    padding-top: 3%;
+    width: 38vh;
+    background-color: #1d2833;
+    height: 10%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+.suggest_users{
+    display: flex;
+    margin-bottom: 10%;
+}
+.douknow .suggest_users #img_suggest_users{
+    width: 8vh;
+    /* margin-left: -10%; */
+    height: 8vh;
+    border-radius: 53px;
+    margin-top: 2%;
+}
+#suggest_name_user{
+    font-size: 15px;
+    margin-right: 12vh;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+#btn_follow{
+    margin-top: 3vh;
+    position: absolute;
+    background-image: linear-gradient(to right, #6a11cbc9 0%, #2575fcbf 100%);
+    /* padding: 1vh; */
+    /* margin-right: 8vh; */
+    border-radius: 19px;
+    font-size: 12px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 900;
+    width: 13vh;
+    height: 35px;
+    margin-left: 24vh;
+}
+.follower_section{
+    display: inline-flex;
+}
+.follower_side h3{
+    margin-right: 3%;
+}
+.follower_right{
+    margin-top: 10%;
+}
+.open_user_profile{
+    padding-bottom: 5%;
+    cursor: pointer;
+    margin-bottom: 8%;
+}
+#suggest_name_users{
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.dt_user{
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 9vh;
+}
+#detalis_name{
+    font-size: small;
+    /* margin-left: -12vh; */
+    color: #f5f5f591;
+}
+#background_users{
+    width: 38vh;
+    position: absolute;
+    height: 16vh;
+    border-radius: 20px;
+    margin-top: -10vh;
+}
+#my_profilepic{
+    margin-left: 15vh;
+    position: absolute;
+    margin-top: -5vh;    
+    width: 8vh;
+    border-radius: 140px;
+    display: block;
+}
+.title_suggest{
+    display: contents;
+    font-size: large;
+}
+#img_stories_users {
+    width: 4vh;
+    /* margin-left: -10%; */
+    height: 4vh;
+    border-radius: 53px;
+    margin-top: 18vh;
+    margin-left: 10vh;
+    position: absolute;
+    border: 5px solid #2575fcbf;
+}
+
+#img_back_stories_users{
+    width: 17vh;
+    height: 25vh;
+    border-radius: 30px;
+}
+.stories_section{
+    position: absolute;
+    margin-left: 30%;
+}
+.stories{
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+}
+.stories_section{
+    background-color: #1d2833;
+    width: 70vh;
+    border-radius: 30px;
+    justify-content: flex-end;
+    margin-left: 74vh;
+    display: flex;
+}
+
+
+.my_story{
+    border: 3px solid;
+    width: 17vh;
+    height: 25vh;
+    border-radius: 30px;    
+    background-image: linear-gradient(to right, #c188ffc4 0%, #7fafff9c 100%);
+}
+
+.my_story h5{
+    text-align: center;
+    font-size: larger;
+}
+.my_story img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    background-image: linear-gradient(to right, #74ffe2 0%, #6462ff 100%);
+    border-radius: 50px;
+}
+.post_myusers #my_profilepic{
+    margin-left: 2vh;
+    position: absolute;
+    margin-top: 6vh;
+    width: 4vh;
+    border-radius: 27px;
+    display: block;
+}
+.post_myusers{
+    position: absolute;
+    display: inline-flex;
+    margin-left: 60vh;
+    margin-top: 38vh;
+    background-color: #1d28338c;
+    width: 80vh;
+    border-radius: 30px;
+}
+
+.post_myusers input{
+    position: absolute;
+    width: 65vh;
+    margin-top: 5vh;
+    height: 5vh;
+    margin-left: 8vh;
+    /* text-align: center; */
+    background-color: #1d2833;
+    border: none;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+.elements_section{
+    display: inline-flex;
+    margin-left: 7vh;
+}
+
+.of img{
+    height: 2.5vh;
+    margin-top: 1vh;
+    margin-right: 4px;
+}
+
+.of{
+    margin-top: 13vh;
+    display: flex;
+    margin-right: 2vh;
+    /* padding: 0px; */
+    padding-bottom: -10px;
+    border: 2px solid;
+    /* padding-top: 0vh; */
+    padding-left: 1vh;
+    border-radius: 16px;
+    padding-right: 1vh;
+    height: 22%;
+    
+}
+
+#of_text{
+    font-size: 10px;
+    margin-left: 0vh;
+}
+
+.elements_section h6{
+    margin-top: 15px;
+}
+
+.of:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+    color: #06080A;
+}
+
+.profilefollower #img_suggest_users{
+    width: 5%;
+    height: 62%;
+    border-radius: 27px;
+    /* display: block; */
+    margin-left: 2vh;
+    /* position: absolute; */
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+
+.profilefollower{
+    position: absolute;
+    display: inline-flex;
+    margin-left: 60vh;
+    margin-top: -40vh;
+    background-color: #1d28338c;
+    width: 80vh;
+    border-radius: 30px;
+}
+#profileconfirmed{
+    width: 2vh;
+    height: 2vh;
+    margin-top: 2vh;
+    margin-right: 1vh;
+}
+    
+
+
+#title_follower{
+    font-size: small;
+    /* margin-left: -12vh; */
+    color: #f5f5f591;
+    margin-top: 2vh;
+}
+
+#time_post{
+    font-size: x-small;
+    margin-top: 5vh;
+    color: #f5f5f591;
+    margin-left: -9vh;
+    width: 29%;
+    height: 1vh;
+}
+
+#content{
+    font-size: small;
+    margin-top: 8vh;
+    margin-left: -23vh;
+    width: 70%;
+}
+
+.interactive{
+    display: inline-flex;
+    margin-bottom: 2vh;
+}
+
+#heart{
+    width: 20px;
+    filter: invert(71%) sepia(43%) saturate(5544%) hue-rotate(220deg) brightness(103%) contrast(101%);
+    margin-top: 17vh;
+    margin-left: -56vh;
+    margin-right: 5vh;
+}
+
+#comment{
+    width: 20px;
+    filter: invert(71%) sepia(43%) saturate(5544%) hue-rotate(220deg) brightness(103%) contrast(101%);
+    margin-top: 17vh;
+    margin-right: 5vh;
+
+}
+
+#share{
+    width: 20px;
+    filter: invert(71%) sepia(43%) saturate(5544%) hue-rotate(220deg) brightness(103%) contrast(101%);
+    margin-top: 17vh;
+    margin-right: 5vh; 
+}
+
+.barnav {
+    display: none;
+}
